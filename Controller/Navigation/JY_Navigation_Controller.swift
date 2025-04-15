@@ -19,6 +19,7 @@ open class JY_Navigation_Controller: UINavigationController {
         }
     }
     
+    /** 日间模式导航栏配置, 不传则会自用适配默认配置*/
     public lazy var yq_light_appearance: UINavigationBarAppearance? = nil {
         didSet {
             yq_set_light_navigationBar()
@@ -28,7 +29,7 @@ open class JY_Navigation_Controller: UINavigationController {
     private lazy var yq_default_light_appearance: UINavigationBarAppearance = {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithTransparentBackground()
-        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor:  JY_Navigation_Controller.yq_title_textColor(), NSAttributedString.Key.font: JY_Navigation_Controller.yq_title_font()]
+        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor:  JY_Navigation_Controller.yq_title_light_textColor(), NSAttributedString.Key.font: JY_Navigation_Controller.yq_title_font()]
         
         appearance.backgroundColor = UIColor(named: "JY_Navigation_Bar_BgColor")
         
@@ -36,6 +37,7 @@ open class JY_Navigation_Controller: UINavigationController {
     }()
     
     
+    /** 夜间模式导航栏配置, 不传则会自用适配默认配置*/
     public lazy var yq_dark_appearance: UINavigationBarAppearance? = nil {
         didSet {
             yq_set_dark_navigationBar()
@@ -45,7 +47,7 @@ open class JY_Navigation_Controller: UINavigationController {
     private lazy var yq_default_dark_appearance: UINavigationBarAppearance = {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithTransparentBackground()
-        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor:  JY_Navigation_Controller.yq_title_light_textColor(),  NSAttributedString.Key.font: JY_Navigation_Controller.yq_title_font()]
+        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor:  JY_Navigation_Controller.yq_title_dark_textColor(),  NSAttributedString.Key.font: JY_Navigation_Controller.yq_title_font()]
         
         appearance.backgroundColor = UIColor(named: "JY_Navigation_Bar_Dark_BgColor")
         
@@ -83,7 +85,7 @@ extension JY_Navigation_Controller {
         if #available(iOS 15.0, *) {
             navigationBar.scrollEdgeAppearance = navigationBar.standardAppearance
         } else {
-            navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:  JY_Navigation_Controller.yq_title_textColor(), NSAttributedString.Key.font: JY_Navigation_Controller.yq_title_font()]
+            navigationBar.titleTextAttributes = navigationBar.standardAppearance.titleTextAttributes
         }
     }
     
@@ -94,7 +96,7 @@ extension JY_Navigation_Controller {
         if #available(iOS 15.0, *) {
             navigationBar.scrollEdgeAppearance = navigationBar.standardAppearance
         } else {
-            navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:  JY_Navigation_Controller.yq_title_light_textColor(), NSAttributedString.Key.font: JY_Navigation_Controller.yq_title_font()]
+            navigationBar.titleTextAttributes = navigationBar.standardAppearance.titleTextAttributes
         }
     }
     
