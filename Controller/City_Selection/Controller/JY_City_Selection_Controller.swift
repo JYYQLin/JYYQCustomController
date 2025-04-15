@@ -27,11 +27,11 @@ class JY_City_Selection_Controller: JY_Base_Controller {
         }
         
         view.yq_city_click_block = { [weak self] city in
-            self?.yq_city_click(city: city)
+//            self?.yq_city_click(city: city)
         }
         
         view.yq_keyboard_height_change_block = { [weak self] height in
-            self?.yq_search_detail_controller?.yq_keyboard_height = height
+//            self?.yq_search_detail_controller?.yq_keyboard_height = height
         }
         
         return view
