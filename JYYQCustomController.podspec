@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   	spec.source       = { :git => "https://github.com/JYYQLin/JYYQCustomController.git", :tag => spec.version }
   	spec.source_files  = "Controller/**/*.{h,m,swift}"
 
-  	spec.dependency "JYYQToolBox"
+  	spec.dependency "JYYQToolBox", '~> 1.0.0'
 
 end
 
