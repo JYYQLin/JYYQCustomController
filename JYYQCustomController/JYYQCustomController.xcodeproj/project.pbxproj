@@ -16,6 +16,27 @@
 		A1593C4E2DAE2FE300C04D37 /* JY_Navigation_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C4D2DAE2FE300C04D37 /* JY_Navigation_Controller.swift */; };
 		A1593C522DAE302D00C04D37 /* Navigation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1593C512DAE302D00C04D37 /* Navigation.xcassets */; };
 		A1593C542DAE319C00C04D37 /* JY_Navigation_Controller+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1593C532DAE319C00C04D37 /* JY_Navigation_Controller+Assets.swift */; };
+		A15CBBE92DAE530800D0AA69 /* JY_City_SearchBar+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBCF2DAE530800D0AA69 /* JY_City_SearchBar+Assets.swift */; };
+		A15CBBEA2DAE530800D0AA69 /* JY_City_Selection_All_City_Cell+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD02DAE530800D0AA69 /* JY_City_Selection_All_City_Cell+Assets.swift */; };
+		A15CBBEB2DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD12DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell+Assets.swift */; };
+		A15CBBEC2DAE530800D0AA69 /* JY_City_Selection_Cell+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD22DAE530800D0AA69 /* JY_City_Selection_Cell+Assets.swift */; };
+		A15CBBED2DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD32DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell+Assets.swift */; };
+		A15CBBEE2DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD42DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell+Assets.swift */; };
+		A15CBBEF2DAE530800D0AA69 /* JY_City_Selection_NavigationBar+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD52DAE530800D0AA69 /* JY_City_Selection_NavigationBar+Assets.swift */; };
+		A15CBBF02DAE530800D0AA69 /* JY_City_Selection_View+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD62DAE530800D0AA69 /* JY_City_Selection_View+Assets.swift */; };
+		A15CBBF12DAE530800D0AA69 /* JY_City_Selection_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD82DAE530800D0AA69 /* JY_City_Selection_Controller.swift */; };
+		A15CBBF22DAE530800D0AA69 /* JY_City_Selection_Controller+Interaction_Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBD92DAE530800D0AA69 /* JY_City_Selection_Controller+Interaction_Methods.swift */; };
+		A15CBBF32DAE530800D0AA69 /* JY_City_Selection_Controller+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBDA2DAE530800D0AA69 /* JY_City_Selection_Controller+Request.swift */; };
+		A15CBBF42DAE530800D0AA69 /* JY_City.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBDC2DAE530800D0AA69 /* JY_City.swift */; };
+		A15CBBF52DAE530800D0AA69 /* JY_City_SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBDE2DAE530800D0AA69 /* JY_City_SearchBar.swift */; };
+		A15CBBF62DAE530800D0AA69 /* JY_City_Selection_All_City_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBDF2DAE530800D0AA69 /* JY_City_Selection_All_City_Cell.swift */; };
+		A15CBBF72DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE02DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell.swift */; };
+		A15CBBF82DAE530800D0AA69 /* JY_City_Selection_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE12DAE530800D0AA69 /* JY_City_Selection_Cell.swift */; };
+		A15CBBF92DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE22DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell.swift */; };
+		A15CBBFA2DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE32DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell.swift */; };
+		A15CBBFB2DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE42DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift */; };
+		A15CBBFC2DAE530800D0AA69 /* JY_City_Selection_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE52DAE530800D0AA69 /* JY_City_Selection_View.swift */; };
+		A15CBBFD2DAE530800D0AA69 /* JY_Collection_IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE62DAE530800D0AA69 /* JY_Collection_IndexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +51,27 @@
 		A1593C4D2DAE2FE300C04D37 /* JY_Navigation_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JY_Navigation_Controller.swift; sourceTree = "<group>"; };
 		A1593C512DAE302D00C04D37 /* Navigation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Navigation.xcassets; sourceTree = "<group>"; };
 		A1593C532DAE319C00C04D37 /* JY_Navigation_Controller+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JY_Navigation_Controller+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBCF2DAE530800D0AA69 /* JY_City_SearchBar+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_SearchBar+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD02DAE530800D0AA69 /* JY_City_Selection_All_City_Cell+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_All_City_Cell+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD12DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_All_City_Header_Cell+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD22DAE530800D0AA69 /* JY_City_Selection_Cell+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_Cell+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD32DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_Current_City_Header_Cell+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD42DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_Hot_City_Cell+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD52DAE530800D0AA69 /* JY_City_Selection_NavigationBar+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_NavigationBar+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD62DAE530800D0AA69 /* JY_City_Selection_View+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_View+Assets.swift"; sourceTree = "<group>"; };
+		A15CBBD82DAE530800D0AA69 /* JY_City_Selection_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_Controller.swift; sourceTree = "<group>"; };
+		A15CBBD92DAE530800D0AA69 /* JY_City_Selection_Controller+Interaction_Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_Controller+Interaction_Methods.swift"; sourceTree = "<group>"; };
+		A15CBBDA2DAE530800D0AA69 /* JY_City_Selection_Controller+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JY_City_Selection_Controller+Request.swift"; sourceTree = "<group>"; };
+		A15CBBDC2DAE530800D0AA69 /* JY_City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City.swift; sourceTree = "<group>"; };
+		A15CBBDE2DAE530800D0AA69 /* JY_City_SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_SearchBar.swift; sourceTree = "<group>"; };
+		A15CBBDF2DAE530800D0AA69 /* JY_City_Selection_All_City_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_All_City_Cell.swift; sourceTree = "<group>"; };
+		A15CBBE02DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_All_City_Header_Cell.swift; sourceTree = "<group>"; };
+		A15CBBE12DAE530800D0AA69 /* JY_City_Selection_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_Cell.swift; sourceTree = "<group>"; };
+		A15CBBE22DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_Current_City_Header_Cell.swift; sourceTree = "<group>"; };
+		A15CBBE32DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_Hot_City_Cell.swift; sourceTree = "<group>"; };
+		A15CBBE42DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_NavigationBar.swift; sourceTree = "<group>"; };
+		A15CBBE52DAE530800D0AA69 /* JY_City_Selection_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_View.swift; sourceTree = "<group>"; };
+		A15CBBE62DAE530800D0AA69 /* JY_Collection_IndexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Collection_IndexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +120,7 @@
 		A1593C4B2DAE2F4E00C04D37 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A15CBBE82DAE530800D0AA69 /* City_Selection */,
 				A1593C4C2DAE2F5400C04D37 /* Navigation */,
 			);
 			name = Controller;
@@ -99,6 +142,66 @@
 				A1593C512DAE302D00C04D37 /* Navigation.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		A15CBBD72DAE530800D0AA69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A15CBBCF2DAE530800D0AA69 /* JY_City_SearchBar+Assets.swift */,
+				A15CBBD02DAE530800D0AA69 /* JY_City_Selection_All_City_Cell+Assets.swift */,
+				A15CBBD12DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell+Assets.swift */,
+				A15CBBD22DAE530800D0AA69 /* JY_City_Selection_Cell+Assets.swift */,
+				A15CBBD32DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell+Assets.swift */,
+				A15CBBD42DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell+Assets.swift */,
+				A15CBBD52DAE530800D0AA69 /* JY_City_Selection_NavigationBar+Assets.swift */,
+				A15CBBD62DAE530800D0AA69 /* JY_City_Selection_View+Assets.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A15CBBDB2DAE530800D0AA69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A15CBBD82DAE530800D0AA69 /* JY_City_Selection_Controller.swift */,
+				A15CBBD92DAE530800D0AA69 /* JY_City_Selection_Controller+Interaction_Methods.swift */,
+				A15CBBDA2DAE530800D0AA69 /* JY_City_Selection_Controller+Request.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A15CBBDD2DAE530800D0AA69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A15CBBDC2DAE530800D0AA69 /* JY_City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A15CBBE72DAE530800D0AA69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A15CBBDE2DAE530800D0AA69 /* JY_City_SearchBar.swift */,
+				A15CBBDF2DAE530800D0AA69 /* JY_City_Selection_All_City_Cell.swift */,
+				A15CBBE02DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell.swift */,
+				A15CBBE12DAE530800D0AA69 /* JY_City_Selection_Cell.swift */,
+				A15CBBE22DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell.swift */,
+				A15CBBE32DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell.swift */,
+				A15CBBE42DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift */,
+				A15CBBE52DAE530800D0AA69 /* JY_City_Selection_View.swift */,
+				A15CBBE62DAE530800D0AA69 /* JY_Collection_IndexView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A15CBBE82DAE530800D0AA69 /* City_Selection */ = {
+			isa = PBXGroup;
+			children = (
+				A15CBBD72DAE530800D0AA69 /* Assets */,
+				A15CBBDB2DAE530800D0AA69 /* Controller */,
+				A15CBBDD2DAE530800D0AA69 /* Model */,
+				A15CBBE72DAE530800D0AA69 /* View */,
+			);
+			path = City_Selection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,11 +276,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15CBBE92DAE530800D0AA69 /* JY_City_SearchBar+Assets.swift in Sources */,
+				A15CBBF62DAE530800D0AA69 /* JY_City_Selection_All_City_Cell.swift in Sources */,
+				A15CBBF82DAE530800D0AA69 /* JY_City_Selection_Cell.swift in Sources */,
+				A15CBBFA2DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell.swift in Sources */,
+				A15CBBFD2DAE530800D0AA69 /* JY_Collection_IndexView.swift in Sources */,
+				A15CBBEF2DAE530800D0AA69 /* JY_City_Selection_NavigationBar+Assets.swift in Sources */,
+				A15CBBF12DAE530800D0AA69 /* JY_City_Selection_Controller.swift in Sources */,
 				A11E91EF2DAE2E9000FF97D1 /* ViewController.swift in Sources */,
 				A11E91EB2DAE2E9000FF97D1 /* AppDelegate.swift in Sources */,
+				A15CBBF02DAE530800D0AA69 /* JY_City_Selection_View+Assets.swift in Sources */,
+				A15CBBEB2DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell+Assets.swift in Sources */,
 				A1593C4E2DAE2FE300C04D37 /* JY_Navigation_Controller.swift in Sources */,
+				A15CBBED2DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell+Assets.swift in Sources */,
+				A15CBBF72DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell.swift in Sources */,
+				A15CBBF22DAE530800D0AA69 /* JY_City_Selection_Controller+Interaction_Methods.swift in Sources */,
+				A15CBBEE2DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell+Assets.swift in Sources */,
+				A15CBBEA2DAE530800D0AA69 /* JY_City_Selection_All_City_Cell+Assets.swift in Sources */,
+				A15CBBF32DAE530800D0AA69 /* JY_City_Selection_Controller+Request.swift in Sources */,
+				A15CBBEC2DAE530800D0AA69 /* JY_City_Selection_Cell+Assets.swift in Sources */,
+				A15CBBF42DAE530800D0AA69 /* JY_City.swift in Sources */,
 				A11E91ED2DAE2E9000FF97D1 /* SceneDelegate.swift in Sources */,
+				A15CBBFB2DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift in Sources */,
 				A1593C542DAE319C00C04D37 /* JY_Navigation_Controller+Assets.swift in Sources */,
+				A15CBBF92DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell.swift in Sources */,
+				A15CBBFC2DAE530800D0AA69 /* JY_City_Selection_View.swift in Sources */,
+				A15CBBF52DAE530800D0AA69 /* JY_City_SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
