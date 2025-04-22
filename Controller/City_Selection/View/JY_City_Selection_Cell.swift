@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import JYYQToolBox
+import JY_Toolbox
 
 class JY_City_Selection_Cell: JY_Base_CollectionViewCell {
     
@@ -26,8 +26,7 @@ extension JY_City_Selection_Cell {
 extension JY_City_Selection_Cell {
     func yq_set(city: JY_City?, scale: CGFloat) {
         yq_title_label.text = city?.yq_full_name
-        yq_scale = scale
-        layoutSubviews()
+       yq_set(scale: scale)
     }
 }
 
@@ -39,8 +38,7 @@ extension JY_City_Selection_Cell {
         }
         else{
             yq_title_label.text = city?.yq_full_name
-            yq_scale = scale
-            layoutSubviews()
+            yq_set(scale: scale)
             
             return yq_title_label.frame.size
         }

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import JYYQToolBox
+import JY_Toolbox
 
 class JY_City_Selection_View: JY_View {
 
@@ -32,11 +32,11 @@ class JY_City_Selection_View: JY_View {
     }
     
     private lazy var yq_calue_current_cell: JY_City_Selection_Cell = JY_City_Selection_Cell()
-    private lazy var yq_collectionView: JY_Refresh_CollectionView = {
+    private lazy var yq_collectionView: UICollectionView = {
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.scrollDirection = .vertical
         
-        let view = JY_Refresh_CollectionView(frame: .zero, collectionViewLayout: flowLayout)
+        let view = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
         
         view.dataSource = self
         view.delegate = self

@@ -6,11 +6,10 @@
 //
 
 import UIKit
-import JYYQToolBox
+import JY_Toolbox
 
 class JY_City_Selection_Controller: JY_Base_Controller {
-
-
+    
     private lazy var yq_navigationBar: JY_City_Selection_NavigationBar = {
         let view = JY_City_Selection_NavigationBar()
         
@@ -68,7 +67,6 @@ extension JY_City_Selection_Controller {
             let height = (yq_is_push == true ? yq_current_device.yq_navigationBar_maxY() : yq_current_device.yq_navigationBar_height()) + yq_navigationBar.yq_city_searchBar_height
             
             yq_navigationBar.frame.size = CGSize(width: view.frame.width, height: height)
-            yq_navigationBar.yq_scale = 1.0
             
             yq_navigationBar.yq_hidden_back_button = !(yq_is_push == true || navigationController != nil)
             
@@ -77,7 +75,7 @@ extension JY_City_Selection_Controller {
         
         yq_position_view.frame.origin = {
             yq_position_view.frame.size = CGSize(width: yq_content_view.frame.width, height: yq_content_view.frame.height - yq_navigationBar.frame.maxY)
-            yq_position_view.yq_scale = yq_scale
+            yq_position_view.yq_set(scale: yq_scale)
             return CGPoint(x: 0, y: yq_navigationBar.frame.maxY)
         }()
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102FD916675EED17575861F9 /* Pods_JYYQCustomController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0C5B081EAE566352824390 /* Pods_JYYQCustomController.framework */; };
 		A11E91EB2DAE2E9000FF97D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E91EA2DAE2E9000FF97D1 /* AppDelegate.swift */; };
 		A11E91ED2DAE2E9000FF97D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E91EC2DAE2E9000FF97D1 /* SceneDelegate.swift */; };
 		A11E91EF2DAE2E9000FF97D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11E91EE2DAE2E9000FF97D1 /* ViewController.swift */; };
@@ -37,9 +38,25 @@
 		A15CBBFB2DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE42DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift */; };
 		A15CBBFC2DAE530800D0AA69 /* JY_City_Selection_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE52DAE530800D0AA69 /* JY_City_Selection_View.swift */; };
 		A15CBBFD2DAE530800D0AA69 /* JY_Collection_IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CBBE62DAE530800D0AA69 /* JY_Collection_IndexView.swift */; };
+		A1FD5C322DB7764400CC003D /* SC_Driving_Test_Essentials_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C312DB7764400CC003D /* SC_Driving_Test_Essentials_Controller.swift */; };
+		A1FD5C362DB7769400CC003D /* SC_Base_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C352DB7769400CC003D /* SC_Base_Controller.swift */; };
+		A1FD5C392DB7778D00CC003D /* SC_Driving_Test_Essentials_NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C382DB7778D00CC003D /* SC_Driving_Test_Essentials_NavigationBar.swift */; };
+		A1FD5C3B2DB77B7E00CC003D /* SC_Base_Controller+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C3A2DB77B7E00CC003D /* SC_Base_Controller+Assets.swift */; };
+		A1FD5C3E2DB77D5000CC003D /* SC_Driving_Test_Essentials_Video_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C3D2DB77D5000CC003D /* SC_Driving_Test_Essentials_Video_View.swift */; };
+		A1FD5C402DB7804B00CC003D /* SC_Driving_Test_Essentials_Segment_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C3F2DB7804B00CC003D /* SC_Driving_Test_Essentials_Segment_View.swift */; };
+		A1FD5C422DB783B300CC003D /* SC_Driving_Test_Essentials_Segment_Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C412DB783B300CC003D /* SC_Driving_Test_Essentials_Segment_Control.swift */; };
+		A1FD5C442DB78BED00CC003D /* SC_Driving_Test_Essentials_PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C432DB78BED00CC003D /* SC_Driving_Test_Essentials_PageController.swift */; };
+		A1FD5C462DB78D2B00CC003D /* SC_Driving_Test_Essentials_Introduction_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C452DB78D2B00CC003D /* SC_Driving_Test_Essentials_Introduction_Controller.swift */; };
+		A1FD5C482DB78D3300CC003D /* SC_Driving_Test_Essentials_Directory_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C472DB78D3300CC003D /* SC_Driving_Test_Essentials_Directory_Controller.swift */; };
+		A1FD5C4A2DB7922F00CC003D /* SC_Driving_Test_Essentials_Introduction_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C492DB7922F00CC003D /* SC_Driving_Test_Essentials_Introduction_View.swift */; };
+		A1FD5C4C2DB7958400CC003D /* SC_Driving_Test_Essentials.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FD5C4B2DB7958400CC003D /* SC_Driving_Test_Essentials.xcassets */; };
+		A1FD5C4E2DB7965D00CC003D /* SC_Driving_Test_Essentials_Introduction_Style1_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C4D2DB7965D00CC003D /* SC_Driving_Test_Essentials_Introduction_Style1_Cell.swift */; };
+		A1FD5C502DB7967400CC003D /* SC_Driving_Test_Essentials_Introduction_Style2_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD5C4F2DB7967400CC003D /* SC_Driving_Test_Essentials_Introduction_Style2_Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54495A1157FB4B723A78C3D2 /* Pods-JYYQCustomController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYYQCustomController.release.xcconfig"; path = "Target Support Files/Pods-JYYQCustomController/Pods-JYYQCustomController.release.xcconfig"; sourceTree = "<group>"; };
+		8D0C5B081EAE566352824390 /* Pods_JYYQCustomController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYYQCustomController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11E91E72DAE2E9000FF97D1 /* JYYQCustomController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYYQCustomController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11E91EA2DAE2E9000FF97D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A11E91EC2DAE2E9000FF97D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +89,21 @@
 		A15CBBE42DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_NavigationBar.swift; sourceTree = "<group>"; };
 		A15CBBE52DAE530800D0AA69 /* JY_City_Selection_View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_City_Selection_View.swift; sourceTree = "<group>"; };
 		A15CBBE62DAE530800D0AA69 /* JY_Collection_IndexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JY_Collection_IndexView.swift; sourceTree = "<group>"; };
+		A1FD5C312DB7764400CC003D /* SC_Driving_Test_Essentials_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Controller.swift; sourceTree = "<group>"; };
+		A1FD5C352DB7769400CC003D /* SC_Base_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Base_Controller.swift; sourceTree = "<group>"; };
+		A1FD5C382DB7778D00CC003D /* SC_Driving_Test_Essentials_NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_NavigationBar.swift; sourceTree = "<group>"; };
+		A1FD5C3A2DB77B7E00CC003D /* SC_Base_Controller+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SC_Base_Controller+Assets.swift"; sourceTree = "<group>"; };
+		A1FD5C3D2DB77D5000CC003D /* SC_Driving_Test_Essentials_Video_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Video_View.swift; sourceTree = "<group>"; };
+		A1FD5C3F2DB7804B00CC003D /* SC_Driving_Test_Essentials_Segment_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Segment_View.swift; sourceTree = "<group>"; };
+		A1FD5C412DB783B300CC003D /* SC_Driving_Test_Essentials_Segment_Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Segment_Control.swift; sourceTree = "<group>"; };
+		A1FD5C432DB78BED00CC003D /* SC_Driving_Test_Essentials_PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_PageController.swift; sourceTree = "<group>"; };
+		A1FD5C452DB78D2B00CC003D /* SC_Driving_Test_Essentials_Introduction_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Introduction_Controller.swift; sourceTree = "<group>"; };
+		A1FD5C472DB78D3300CC003D /* SC_Driving_Test_Essentials_Directory_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Directory_Controller.swift; sourceTree = "<group>"; };
+		A1FD5C492DB7922F00CC003D /* SC_Driving_Test_Essentials_Introduction_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Introduction_View.swift; sourceTree = "<group>"; };
+		A1FD5C4B2DB7958400CC003D /* SC_Driving_Test_Essentials.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SC_Driving_Test_Essentials.xcassets; sourceTree = "<group>"; };
+		A1FD5C4D2DB7965D00CC003D /* SC_Driving_Test_Essentials_Introduction_Style1_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Introduction_Style1_Cell.swift; sourceTree = "<group>"; };
+		A1FD5C4F2DB7967400CC003D /* SC_Driving_Test_Essentials_Introduction_Style2_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SC_Driving_Test_Essentials_Introduction_Style2_Cell.swift; sourceTree = "<group>"; };
+		FD00A9FDC4A93140CABBB46F /* Pods-JYYQCustomController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYYQCustomController.debug.xcconfig"; path = "Target Support Files/Pods-JYYQCustomController/Pods-JYYQCustomController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,17 +111,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102FD916675EED17575861F9 /* Pods_JYYQCustomController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B9ADBE0C6EF6735AE950484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C5B081EAE566352824390 /* Pods_JYYQCustomController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A11E91DE2DAE2E9000FF97D1 = {
 			isa = PBXGroup;
 			children = (
 				A11E91E92DAE2E9000FF97D1 /* JYYQCustomController */,
 				A11E91E82DAE2E9000FF97D1 /* Products */,
+				BF34367D40E4921D6954CCA4 /* Pods */,
+				6B9ADBE0C6EF6735AE950484 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +154,7 @@
 				A11E91EE2DAE2E9000FF97D1 /* ViewController.swift */,
 				A11E91F02DAE2E9000FF97D1 /* Main.storyboard */,
 				A11E91F32DAE2E9100FF97D1 /* Assets.xcassets */,
+				A1FD5C4B2DB7958400CC003D /* SC_Driving_Test_Essentials.xcassets */,
 				A11E91F52DAE2E9100FF97D1 /* LaunchScreen.storyboard */,
 				A11E91F82DAE2E9100FF97D1 /* Info.plist */,
 			);
@@ -120,6 +164,8 @@
 		A1593C4B2DAE2F4E00C04D37 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A1FD5C332DB7764C00CC003D /* Base */,
+				A1FD5C2F2DB7761F00CC003D /* Driving Test Essentials */,
 				A15CBBE82DAE530800D0AA69 /* City_Selection */,
 				A1593C4C2DAE2F5400C04D37 /* Navigation */,
 			);
@@ -204,6 +250,66 @@
 			path = City_Selection;
 			sourceTree = "<group>";
 		};
+		A1FD5C2F2DB7761F00CC003D /* Driving Test Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD5C302DB7762500CC003D /* Controller */,
+				A1FD5C372DB7777700CC003D /* View */,
+			);
+			path = "Driving Test Essentials";
+			sourceTree = "<group>";
+		};
+		A1FD5C302DB7762500CC003D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD5C312DB7764400CC003D /* SC_Driving_Test_Essentials_Controller.swift */,
+				A1FD5C472DB78D3300CC003D /* SC_Driving_Test_Essentials_Directory_Controller.swift */,
+				A1FD5C452DB78D2B00CC003D /* SC_Driving_Test_Essentials_Introduction_Controller.swift */,
+				A1FD5C432DB78BED00CC003D /* SC_Driving_Test_Essentials_PageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1FD5C332DB7764C00CC003D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD5C3C2DB77C0600CC003D /* SC Base */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A1FD5C372DB7777700CC003D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD5C382DB7778D00CC003D /* SC_Driving_Test_Essentials_NavigationBar.swift */,
+				A1FD5C412DB783B300CC003D /* SC_Driving_Test_Essentials_Segment_Control.swift */,
+				A1FD5C3F2DB7804B00CC003D /* SC_Driving_Test_Essentials_Segment_View.swift */,
+				A1FD5C3D2DB77D5000CC003D /* SC_Driving_Test_Essentials_Video_View.swift */,
+				A1FD5C492DB7922F00CC003D /* SC_Driving_Test_Essentials_Introduction_View.swift */,
+				A1FD5C4D2DB7965D00CC003D /* SC_Driving_Test_Essentials_Introduction_Style1_Cell.swift */,
+				A1FD5C4F2DB7967400CC003D /* SC_Driving_Test_Essentials_Introduction_Style2_Cell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1FD5C3C2DB77C0600CC003D /* SC Base */ = {
+			isa = PBXGroup;
+			children = (
+				A1FD5C352DB7769400CC003D /* SC_Base_Controller.swift */,
+				A1FD5C3A2DB77B7E00CC003D /* SC_Base_Controller+Assets.swift */,
+			);
+			path = "SC Base";
+			sourceTree = "<group>";
+		};
+		BF34367D40E4921D6954CCA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD00A9FDC4A93140CABBB46F /* Pods-JYYQCustomController.debug.xcconfig */,
+				54495A1157FB4B723A78C3D2 /* Pods-JYYQCustomController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A11E91FB2DAE2E9100FF97D1 /* Build configuration list for PBXNativeTarget "JYYQCustomController" */;
 			buildPhases = (
+				3B1495FDB2B791E9F50E1F80 /* [CP] Check Pods Manifest.lock */,
 				A11E91E32DAE2E9000FF97D1 /* Sources */,
 				A11E91E42DAE2E9000FF97D1 /* Frameworks */,
 				A11E91E52DAE2E9000FF97D1 /* Resources */,
+				4368DFD9012282054B141E1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FD5C4C2DB7958400CC003D /* SC_Driving_Test_Essentials.xcassets in Resources */,
 				A11E91F42DAE2E9100FF97D1 /* Assets.xcassets in Resources */,
 				A11E91F72DAE2E9100FF97D1 /* Base in Resources */,
 				A11E91F22DAE2E9000FF97D1 /* Base in Resources */,
@@ -271,28 +380,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B1495FDB2B791E9F50E1F80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JYYQCustomController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4368DFD9012282054B141E1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JYYQCustomController/Pods-JYYQCustomController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JYYQCustomController/Pods-JYYQCustomController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JYYQCustomController/Pods-JYYQCustomController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A11E91E32DAE2E9000FF97D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A15CBBE92DAE530800D0AA69 /* JY_City_SearchBar+Assets.swift in Sources */,
+				A1FD5C502DB7967400CC003D /* SC_Driving_Test_Essentials_Introduction_Style2_Cell.swift in Sources */,
 				A15CBBF62DAE530800D0AA69 /* JY_City_Selection_All_City_Cell.swift in Sources */,
 				A15CBBF82DAE530800D0AA69 /* JY_City_Selection_Cell.swift in Sources */,
+				A1FD5C322DB7764400CC003D /* SC_Driving_Test_Essentials_Controller.swift in Sources */,
 				A15CBBFA2DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell.swift in Sources */,
 				A15CBBFD2DAE530800D0AA69 /* JY_Collection_IndexView.swift in Sources */,
 				A15CBBEF2DAE530800D0AA69 /* JY_City_Selection_NavigationBar+Assets.swift in Sources */,
 				A15CBBF12DAE530800D0AA69 /* JY_City_Selection_Controller.swift in Sources */,
+				A1FD5C422DB783B300CC003D /* SC_Driving_Test_Essentials_Segment_Control.swift in Sources */,
 				A11E91EF2DAE2E9000FF97D1 /* ViewController.swift in Sources */,
 				A11E91EB2DAE2E9000FF97D1 /* AppDelegate.swift in Sources */,
+				A1FD5C442DB78BED00CC003D /* SC_Driving_Test_Essentials_PageController.swift in Sources */,
 				A15CBBF02DAE530800D0AA69 /* JY_City_Selection_View+Assets.swift in Sources */,
 				A15CBBEB2DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell+Assets.swift in Sources */,
+				A1FD5C4E2DB7965D00CC003D /* SC_Driving_Test_Essentials_Introduction_Style1_Cell.swift in Sources */,
+				A1FD5C3E2DB77D5000CC003D /* SC_Driving_Test_Essentials_Video_View.swift in Sources */,
 				A1593C4E2DAE2FE300C04D37 /* JY_Navigation_Controller.swift in Sources */,
 				A15CBBED2DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell+Assets.swift in Sources */,
+				A1FD5C362DB7769400CC003D /* SC_Base_Controller.swift in Sources */,
 				A15CBBF72DAE530800D0AA69 /* JY_City_Selection_All_City_Header_Cell.swift in Sources */,
 				A15CBBF22DAE530800D0AA69 /* JY_City_Selection_Controller+Interaction_Methods.swift in Sources */,
+				A1FD5C482DB78D3300CC003D /* SC_Driving_Test_Essentials_Directory_Controller.swift in Sources */,
 				A15CBBEE2DAE530800D0AA69 /* JY_City_Selection_Hot_City_Cell+Assets.swift in Sources */,
 				A15CBBEA2DAE530800D0AA69 /* JY_City_Selection_All_City_Cell+Assets.swift in Sources */,
+				A1FD5C392DB7778D00CC003D /* SC_Driving_Test_Essentials_NavigationBar.swift in Sources */,
+				A1FD5C402DB7804B00CC003D /* SC_Driving_Test_Essentials_Segment_View.swift in Sources */,
 				A15CBBF32DAE530800D0AA69 /* JY_City_Selection_Controller+Request.swift in Sources */,
 				A15CBBEC2DAE530800D0AA69 /* JY_City_Selection_Cell+Assets.swift in Sources */,
 				A15CBBF42DAE530800D0AA69 /* JY_City.swift in Sources */,
@@ -300,8 +461,11 @@
 				A15CBBFB2DAE530800D0AA69 /* JY_City_Selection_NavigationBar.swift in Sources */,
 				A1593C542DAE319C00C04D37 /* JY_Navigation_Controller+Assets.swift in Sources */,
 				A15CBBF92DAE530800D0AA69 /* JY_City_Selection_Current_City_Header_Cell.swift in Sources */,
+				A1FD5C4A2DB7922F00CC003D /* SC_Driving_Test_Essentials_Introduction_View.swift in Sources */,
 				A15CBBFC2DAE530800D0AA69 /* JY_City_Selection_View.swift in Sources */,
 				A15CBBF52DAE530800D0AA69 /* JY_City_SearchBar.swift in Sources */,
+				A1FD5C462DB78D2B00CC003D /* SC_Driving_Test_Essentials_Introduction_Controller.swift in Sources */,
+				A1FD5C3B2DB77B7E00CC003D /* SC_Base_Controller+Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,11 +612,13 @@
 		};
 		A11E91FC2DAE2E9100FF97D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD00A9FDC4A93140CABBB46F /* Pods-JYYQCustomController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JYYQCustomController/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -475,11 +641,13 @@
 		};
 		A11E91FD2DAE2E9100FF97D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54495A1157FB4B723A78C3D2 /* Pods-JYYQCustomController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JYYQCustomController/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

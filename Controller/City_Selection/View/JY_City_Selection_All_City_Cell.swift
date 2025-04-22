@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import JYYQToolBox
+import JY_Toolbox
 
 class JY_City_Selection_All_City_Cell: JY_Base_CollectionViewCell {
     
@@ -29,7 +29,7 @@ extension JY_City_Selection_All_City_Cell {
     func yq_set(city: JY_City, scale: CGFloat, hiddenUnderLine: Bool) {
         yq_title_label.text = city.yq_full_name
         yq_under_line_view.isHidden = hiddenUnderLine
-        yq_scale = scale
+        yq_set(scale: scale)
     }
 }
 

@@ -1,0 +1,12 @@
+source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ‘13.0’
+inhibit_all_warnings!
+
+target 'JYYQCustomController' do
+  use_frameworks!
+
+    pod 'JY_Toolbox', :git => 'https://github.com/JYYQLin/JY_Toolbox.git'
+  
+end

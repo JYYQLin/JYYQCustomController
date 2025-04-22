@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import JYYQToolBox
+import JY_Toolbox
 
 class JY_City_Selection_Current_City_Header_Cell: JY_Base_CollectionViewCell {
     
@@ -31,7 +31,7 @@ extension JY_City_Selection_Current_City_Header_Cell {
 extension JY_City_Selection_Current_City_Header_Cell {
     func yq_set(title: String, scale: CGFloat) {
         yq_title_label.text = title
-        yq_scale = scale
+        yq_set(scale: scale)
     }
 }
 

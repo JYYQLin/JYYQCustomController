@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JY_Toolbox
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        UIWindow.yq_first_window()?.rootViewController = SC_Driving_Test_Essentials_Controller()
+    }
 }
 

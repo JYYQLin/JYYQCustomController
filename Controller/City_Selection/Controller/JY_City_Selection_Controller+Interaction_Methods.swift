@@ -21,6 +21,6 @@ extension JY_City_Selection_Controller {
         self.view.endEditing(true)
         
         yq_request_postion_city_url()
-//        JY_HUD_Tool.pio_show_loading()
+//        JY_HUD_Tool.yq_show_loading()
     }
 }
