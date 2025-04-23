@@ -8,7 +8,7 @@
 import UIKit
 import JY_Toolbox
 
-class JY_Driving_Test_Essentials_Controller: SC_Base_Controller {
+open class JY_Driving_Test_Essentials_Controller: SC_Base_Controller {
 
     private lazy var yq_navigationBar: JY_Driving_Test_Essentials_NavigationBar = JY_Driving_Test_Essentials_NavigationBar()
     
@@ -36,7 +36,7 @@ class JY_Driving_Test_Essentials_Controller: SC_Base_Controller {
 }
 
 extension JY_Driving_Test_Essentials_Controller {
-    override func viewWillAppear(_ animated: Bool) {
+    open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         navigationController?.setNavigationBarHidden(true, animated: animated)
@@ -44,14 +44,14 @@ extension JY_Driving_Test_Essentials_Controller {
 }
 
 extension JY_Driving_Test_Essentials_Controller {
-    override func yq_setNavigationBar() {
+    open override func yq_setNavigationBar() {
         super.yq_setNavigationBar()
         
         view.addSubview(yq_navigationBar)
         view.addSubview(yq_video_view)
     }
     
-    override func yq_setInterface() {
+    open override func yq_setInterface() {
         super.yq_setInterface()
         
         yq_content_view.addSubview(yq_segment_view)
@@ -60,7 +60,7 @@ extension JY_Driving_Test_Essentials_Controller {
         yq_content_view.addSubview(yq_page_controller.view)
     }
     
-    override func yq_setSubviewsFrame() {
+    open override func yq_setSubviewsFrame() {
         super.yq_setSubviewsFrame()
         
         yq_background_content_view.backgroundColor = UIColor.yq_color(colorString: "#010101")

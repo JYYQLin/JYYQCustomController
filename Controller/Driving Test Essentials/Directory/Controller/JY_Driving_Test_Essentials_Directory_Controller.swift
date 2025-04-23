@@ -7,7 +7,7 @@
 
 import UIKit
 
-class JY_Driving_Test_Essentials_Directory_Controller: SC_Base_Controller {
+open class JY_Driving_Test_Essentials_Directory_Controller: SC_Base_Controller {
     
     private lazy var yq_title_view: JY_Driving_Test_Essentials_Directory_Title_Content_View = {
         let view = JY_Driving_Test_Essentials_Directory_Title_Content_View()
@@ -31,7 +31,7 @@ class JY_Driving_Test_Essentials_Directory_Controller: SC_Base_Controller {
 }
 
 extension JY_Driving_Test_Essentials_Directory_Controller {
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         
         yq_retry_request_click()
@@ -39,7 +39,7 @@ extension JY_Driving_Test_Essentials_Directory_Controller {
 }
 
 extension JY_Driving_Test_Essentials_Directory_Controller {
-    override func yq_setInterface() {
+    open override func yq_setInterface() {
         super.yq_setInterface()
         
         yq_content_view.addSubview(yq_title_view)
@@ -49,7 +49,7 @@ extension JY_Driving_Test_Essentials_Directory_Controller {
         yq_content_view.addSubview(yq_page_controller.view)
     }
     
-    override func yq_setSubviewsFrame() {
+    open override func yq_setSubviewsFrame() {
         super.yq_setSubviewsFrame()
         
         yq_title_view.frame.origin = {
@@ -66,7 +66,7 @@ extension JY_Driving_Test_Essentials_Directory_Controller {
 }
 
 extension JY_Driving_Test_Essentials_Directory_Controller {
-    override func yq_retry_request_click() {
+    open override func yq_retry_request_click() {
         super.yq_retry_request_click()
         
         yq_controller_status = .yq_data_loaded

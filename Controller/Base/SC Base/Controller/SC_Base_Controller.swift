@@ -8,20 +8,20 @@
 import UIKit
 import JY_Toolbox
 
-class SC_Base_Controller: JY_Base_Controller {
+open class SC_Base_Controller: JY_Base_Controller {
 
     private lazy var yq_loading_view: JY_Shimmer_Loading_View = JY_Shimmer_Loading_View()
 }
 
 extension SC_Base_Controller {
     
-    override func yq_setInterface() {
+    open override func yq_setInterface() {
         super.yq_setInterface()
         
         yq_request_loading_addSubview(yq_loading_view)
     }
     
-    override func yq_setSubviewsFrame() {
+    open override func yq_setSubviewsFrame() {
         super.yq_setSubviewsFrame()
         
         yq_background_content_view.backgroundColor = yq_controller_bgColor()

@@ -53,13 +53,13 @@ extension JY_City_Selection_Controller {
         view.addSubview(yq_navigationBar)
     }
     
-    override func yq_setInterface() {
+    open override func yq_setInterface() {
         super.yq_setInterface()
         
         yq_content_view.addSubview(yq_position_view)
     }
     
-    override func yq_setSubviewsFrame() {
+    open override func yq_setSubviewsFrame() {
         super.yq_setSubviewsFrame()
         
         yq_navigationBar.frame.origin = {

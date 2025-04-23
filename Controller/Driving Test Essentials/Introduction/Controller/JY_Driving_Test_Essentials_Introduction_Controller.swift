@@ -7,20 +7,20 @@
 
 import UIKit
 
-class JY_Driving_Test_Essentials_Introduction_Controller: SC_Base_Controller {
+open class JY_Driving_Test_Essentials_Introduction_Controller: SC_Base_Controller {
     
     private lazy var yq_detail_view: JY_Driving_Test_Essentials_Introduction_View = JY_Driving_Test_Essentials_Introduction_View()
 }
 
 extension JY_Driving_Test_Essentials_Introduction_Controller {
     
-    override func yq_setInterface() {
+    open override func yq_setInterface() {
         super.yq_setInterface()
         
         yq_content_view.addSubview(yq_detail_view)
     }
     
-    override func yq_setSubviewsFrame() {
+    open override func yq_setSubviewsFrame() {
         super.yq_setSubviewsFrame()
         
         yq_detail_view.frame.origin = {
