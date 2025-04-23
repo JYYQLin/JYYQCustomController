@@ -41,6 +41,9 @@ class JY_City_Selection_View: JY_View {
         view.dataSource = self
         view.delegate = self
         
+        view.contentInsetAdjustmentBehavior = .never
+        view.automaticallyAdjustsScrollIndicatorInsets = false
+        
         view.register(JY_City_Selection_Cell.self, forCellWithReuseIdentifier: JY_City_Selection_Cell.yq_ID())
         view.register(JY_City_Selection_Hot_City_Cell.self, forCellWithReuseIdentifier: JY_City_Selection_Hot_City_Cell.yq_ID())
         view.register(JY_City_Selection_All_City_Cell.self, forCellWithReuseIdentifier: JY_City_Selection_All_City_Cell.yq_ID())

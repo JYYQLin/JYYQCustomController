@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
-        UIWindow.yq_first_window()?.rootViewController = SC_Driving_Test_Essentials_Controller()
+        UIWindow.yq_first_window()?.rootViewController = JY_Driving_Test_Essentials_Controller()
     }
 }
 
